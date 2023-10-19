@@ -1,0 +1,28 @@
+/* WineDataDisplay.css */
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style table cells */
+  td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the component container (optional) */
+  div {
+    margin: 20px;
+  }
+  
