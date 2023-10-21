@@ -1,25 +1,48 @@
+
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styles for the overall layout */
+.app {
+  text-align: center;
+  margin: 20px;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Table styles */
 table {
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #ccc;
-  }
-  
+  border-collapse: collapse;
+  width: 80%; 
+  margin: 10px;
+  border: 2px solid #0f0f0f;
+}
 
-  th {
-    background-color: #f2f2f2;
-    text-align: left;
-    padding: 8px;
-    border: 1px solid #ccc;
-  }
-  
+table th,
+table td {
+  border: 1px solid #0e0d0d;
+  padding: 10px;
+  text-align: center;
+}
 
-  td {
-    padding: 8px;
-    border: 1px solid #ccc;
-  }
-  
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
 
-  div {
-    margin: 20px;
-  }
-  
+/* Styling for WineStatsTable */
+.wine-stats {
+  background-color: #f9f9f9;
+}
+
+/* Styling for GammaStatsTable */
+.gamma-stats {
+  background-color: #f6f6f6;
+}
